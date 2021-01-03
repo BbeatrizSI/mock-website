@@ -1,0 +1,170 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: url('../img/hojas.jpg');
+  background-position: fixed;
+}
+
+#global {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  background-color: white;
+  margin: 30px auto 0px;
+  padding: 20px;
+  box-shadow: 0px 0px 2px grey;
+}
+
+#logo {
+  display: block;
+  font-family: Verdana, Arial, Tahoma, sans-serif;
+  font-size: 40px;
+  letter-spacing: 4px;
+  line-height: 75px;
+  background-color: #235e3d;
+  color: white;
+  text-align: center;
+  width: 385px;
+  height: 80px;
+  margin-bottom: 20px;
+  /* float: left; */
+}
+
+#menu {
+  font-family: Helvetica, sans-serif;
+  background-color: #333;
+  width: 100%;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+#menu ul {
+  line-height: 46px;
+}
+
+#menu ul li {
+  height: 46px;
+  display: inline-block;
+  transition: all 300ms;
+}
+
+#menu ul li:hover {
+  background-color: #235e3d;
+}
+
+#menu a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 0px 30px;
+}
+
+#content {
+  width: 97%;
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+}
+
+#posts {
+  width: 60%;
+  font-family: Helvetica, sans-serif;
+}
+
+.post {
+  padding: 7px;
+}
+
+.post h2 {
+  font-size: 30px;
+  color: #333;
+}
+
+.post .date {
+  display: block;
+  color: gray;
+  margin-top: 5px;
+}
+
+.post p {
+  margin: 10px 0px 20px;
+  line-height: 22px;
+  text-align: justify;
+}
+
+.btn-more {
+  font-size: 14px;
+  padding: 15px;
+  background-color: #235e3d;
+  color: white;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+#aside {
+  font-family: Helvetica;
+  width: 31%;
+}
+
+#aside h4 {
+  margin: 50px 0px 20px;
+  text-align: center;
+  line-height: 10px;
+  color: #333;
+  background: url('../img/lines.png') repeat-x;
+}
+
+#aside h4 span {
+  background-color: white;
+  padding: 5px;
+}
+
+#aside img {
+  width: 100%;
+}
+
+#aside p {
+  font-size: 15px;
+  text-align: justify;
+}
+
+form input[type='text'],
+form input[type='password'],
+form input[type='email'] {
+  width: 80%;
+  padding: 5px;
+  border-radius: 2px;
+  border: 1px solid #ccc;
+  margin: 5px 0px 10px;
+  box-shadow: 0px 0px 1px gray;
+}
+
+form input[type='submit'] {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  padding: 8px;
+  color: #333;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+footer {
+  font-family: helvetica;
+  color: white;
+  height: 47px;
+  width: 100%;
+  background-color: rgba(51, 51, 51, 0.7);
+  margin: 0px auto;
+  padding: 0px 20px;
+  margin: 50px 0px -20px -20px;
+  text-align: center;
+  line-height: 47px;
+}
+
+.bx-wrapper,
+.bx-viewport {
+  height: 250px !important;
+}
